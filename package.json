@@ -1,0 +1,27 @@
+{
+  "name": "csv-to-ris",
+  "version": "0.0.1",
+  "description": "This script maps a CSV bibliographic record set to a RIS bibliographic record set.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kosson/csv-to-ris.git"
+  },
+  "keywords": [
+    "csv",
+    "ris",
+    "transform"
+  ],
+  "author": "Nicolaie Constantinescu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kosson/csv-to-ris/issues"
+  },
+  "homepage": "https://github.com/kosson/csv-to-ris#readme",
+  "dependencies": {
+    "fast-csv": "^4.3.6"
+  }
+}
