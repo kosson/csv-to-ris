@@ -75,6 +75,7 @@ let key2tag = {
 (async function () {
     // PREGĂTEȘTE SCRIEREA FIȘIERULUI
     const fileName = 'result.ris';
+;
     const stream = createReadStream(path.resolve(__dirname, 'assets', 'a.csv'));
     stream
         .pipe(csv.parse({
@@ -110,8 +111,13 @@ let key2tag = {
                 }
             }
 
+            if (row?.AB) {
+                record += `AB  - ${row.AB}\n`;
+                console.log(row.AB);
+            }
+
             record += 'ER  - ' + '\n';
-            fs.appendFile(fileName, record); // scrie datele în fișierul ris
+            fs.appendFile(fileName, record, 'utf-8'); // scrie datele în fișierul ris
             return row;
         })
         .on('error', error => console.error(error))
@@ -122,3 +128,8 @@ let key2tag = {
             console.log(`Parsed ${rowCount} rows`);
         });
 })();
+
+// Use cases for refinement times
+    // https://blog.logrocket.com/complete-guide-csv-files-node-js/
+    // https://geshan.com.np/blog/2021/11/nodejs-read-write-csv/
+    // https://www.tabnine.com/code/javascript/modules/fast-csv
