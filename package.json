@@ -1,6 +1,6 @@
 {
   "name": "csv-to-ris",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "This script maps a CSV bibliographic record set to a RIS bibliographic record set.",
   "main": "app.js",
   "scripts": {
