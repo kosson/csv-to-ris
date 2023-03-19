@@ -24,3 +24,5 @@ Puncte la care trebuie acordată atenție:
 
 Pentru a face conversia, tot ce mai rămâne este să executați scriptul: `node app.js`. La final, vei obține în rădăcina proiectului fișierul cu extensia ris.
 Acesta poate fi importat mai departe în aplicații specializate precum Zotero sau EndNote.
+
+(Teza - UnitBV)
