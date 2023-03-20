@@ -77,11 +77,13 @@ După transformare ar trebui să ajungeți la următorul rezultat.
 
 ![rezultat final în OpenRefine](dupa-transformare-openrefine.png)
 
-Se va exporta din OpenRefine ca CSV și se va deschide cu LibreOffice Calc pentru a-l salva din nou ca CSV dar înainte de save te asiguri că toate câmpurile sunt între `"`.
+Se va exporta din OpenRefine ca CSV și se va deschide cu LibreOffice Calc pentru a-l salva din nou ca CSV, dar înainte de save, te asiguri că toate câmpurile sunt între `"`.
 
 ![Salvezi](Calc01.png)
 
 Te asiguri că ai bifat *Quote all text cells* iar la *String delimiter* ai valoarea `"`.
+
+![Citeaza cu ghilimele duble toate câmpurile](Calc02.png)
 
 Pune fișierul rezultat sub numele de `a.csv` în subdirectorul `assets`.
 
