@@ -113,7 +113,7 @@ let key2tag = {
 
             if (row?.AB) {
                 record += `AB  - ${row.AB}\n`;
-                console.log(row.AB);
+                // console.log(row.AB);
             }
 
             record += 'ER  - ' + '\n';
